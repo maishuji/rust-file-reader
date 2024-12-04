@@ -10,6 +10,9 @@ clean: ## Clean the project using cargo
 build: ## Build the project using cargo
 	cargo build
 
+run:
+	cargo run
+
 lint: ## Lint the project using cargo
 	@rustup component add clippy 2> /dev/null
 	cargo clippy
