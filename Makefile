@@ -10,6 +10,9 @@ clean: ## Clean the project using cargo
 build: ## Build the project using cargo
 	cargo build
 
+test:
+	cargo test
+
 run:
 	cargo run
 
